@@ -1,7 +1,7 @@
 {
   "name": "electron-highlighter-syntax",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A tweaked one-dark syntax with Spacegray background",
   "keywords": [
     "syntax",
