@@ -2,11 +2,12 @@
 @syntax-hue:          221;
 @syntax-saturation:   16%;
 @syntax-brightness:   20%;
+@syntax-mix-percent:   8%;
 
 // Base colors -----------------------------------
 @syntax-base-accent-color:      hsl(221, 100%, 66%);
 @syntax-base-background-color:  hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
-@syntax-base-text-color:        @light-gray;
+@syntax-base-text-color:        mix(@syntax-base-accent-color, @light-gray, 2.5*@syntax-mix-percent);
 @syntax-base-guide-color:       fade(@syntax-base-text-color, 15%);
 
 // Monochrome ------------------------------------
@@ -17,10 +18,10 @@
 @very-dark-gray:  #2b303b;
 
 // Colors -----------------------------------
-@cyan: hsl(191, 91%, 73%);
-@blue: hsl(212, 99%, 75%);
-@purple: hsl(286, 82%, 79%);
-@green: hsl(118, 69%, 78%);
-@red: hsl(358, 80%, 67%);
-@yellow: hsl( 48, 81%, 76%);
-@orange: hsl( 25, 80%, 69%);
+@cyan:     mix(@syntax-base-accent-color, hsl(191, 91%, 73%), @syntax-mix-percent);
+@blue:     mix(@syntax-base-accent-color, hsl(212, 99%, 75%), @syntax-mix-percent);
+@purple:   mix(@syntax-base-accent-color, hsl(286, 82%, 79%), @syntax-mix-percent);
+@green:    mix(@syntax-base-accent-color, hsl(118, 59%, 72%), @syntax-mix-percent);
+@red:      mix(@syntax-base-accent-color, hsl(358, 80%, 67%), @syntax-mix-percent);
+@yellow:   mix(@syntax-base-accent-color, hsl( 48, 81%, 76%), @syntax-mix-percent);
+@orange:   mix(@syntax-base-accent-color, hsl( 30, 70%, 69%), @syntax-mix-percent);
