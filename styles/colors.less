@@ -1,28 +1,28 @@
 // Config -----------------------------------
-@syntax-hue:          221;
-@syntax-saturation:   16%;
+@syntax-hue:          220;
+@syntax-saturation:   24%;
 @syntax-brightness:   20%;
 @syntax-mix-percent:   8%;
 
 // Base colors -----------------------------------
-@syntax-base-accent-color:      hsl(221, 100%, 66%);
+@syntax-base-accent-color:      hsl(@syntax-hue, 100%, 66%);
 @syntax-base-background-color:  hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
 @syntax-base-text-color:        mix(@syntax-base-accent-color, @light-gray, 2.5*@syntax-mix-percent);
 @syntax-comment-color:          mix(@syntax-base-accent-color, @dark-gray, 2.5*@syntax-mix-percent);
 @syntax-base-guide-color:       fade(@syntax-base-text-color, 15%);
 
 // Monochrome ------------------------------------
-@very-light-gray: #C0C5CE;
-@light-gray:      #A7ADBA;
-@gray:            #65737E;
-@dark-gray:       #4F5B66;
-@very-dark-gray:  #2b303b;
+@very-light-gray: #c0c5ce;
+@light-gray:      #a7adba;
+@gray:            #65737e;
+@dark-gray:       #4f5b66;
+@very-dark-gray:  #272f3f;
 
 // Colors -----------------------------------
 @cyan:     mix(@syntax-base-accent-color, hsl(191, 91%, 73%), @syntax-mix-percent);
-@blue:     mix(@syntax-base-accent-color, hsl(212, 99%, 75%), @syntax-mix-percent);
+@blue:     mix(@syntax-base-accent-color, hsl(212, 99%, 73%), @syntax-mix-percent);
 @purple:   mix(@syntax-base-accent-color, hsl(286, 82%, 79%), @syntax-mix-percent);
-@green:    mix(@syntax-base-accent-color, hsl(118, 59%, 72%), @syntax-mix-percent);
-@red:      mix(@syntax-base-accent-color, hsl(358, 80%, 67%), @syntax-mix-percent);
+@green:    mix(@syntax-base-accent-color, hsl(118, 98%, 75%), @syntax-mix-percent);
+@red:      mix(@syntax-base-accent-color, hsl(358, 90%, 67%), @syntax-mix-percent);
 @yellow:   mix(@syntax-base-accent-color, hsl( 48, 81%, 76%), @syntax-mix-percent);
-@orange:   mix(@syntax-base-accent-color, hsl( 30, 70%, 69%), @syntax-mix-percent);
+@orange:   mix(@syntax-base-accent-color, hsl( 30, 85%, 69%), @syntax-mix-percent);
