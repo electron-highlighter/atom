@@ -4,21 +4,13 @@
 @syntax-brightness:   17%;
 @syntax-mix-percent:   8%;
 
-// Base colors -----------------------------------
-@syntax-base-accent-color:      hsl(@syntax-hue, 100%, 66%);
-@syntax-base-background-color:  hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
-@syntax-base-text-color:        mix(@syntax-base-accent-color, @light-gray, 2.5*@syntax-mix-percent);
-@syntax-comment-color:          mix(@syntax-base-accent-color, @dark-gray, 2.5*@syntax-mix-percent);
-@syntax-base-guide-color:       fade(@syntax-base-text-color, 15%);
-
-// Monochrome ------------------------------------
+// Colors -----------------------------------
 @very-light-gray: #c0c5ce;
 @light-gray:      #a7adba;
 @gray:            #65737e;
 @dark-gray:       #4f5b66;
 @very-dark-gray:  #272f3f;
 
-// Colors -----------------------------------
 @cyan:     mix(@syntax-base-accent-color, hsl(178, 92%, 73%), @syntax-mix-percent);
 @blue:     mix(@syntax-base-accent-color, hsl(212, 99%, 73%), @syntax-mix-percent);
 @purple:   mix(@syntax-base-accent-color, hsl(286, 82%, 79%), @syntax-mix-percent);
@@ -26,3 +18,27 @@
 @red:      mix(@syntax-base-accent-color, hsl(358, 90%, 67%), @syntax-mix-percent);
 @yellow:   mix(@syntax-base-accent-color, hsl( 48, 81%, 76%), @syntax-mix-percent);
 @orange:   mix(@syntax-base-accent-color, hsl( 32, 91%, 72%), @syntax-mix-percent);
+
+
+// Monochrome -----------------------------------
+@mono-1: mix(@syntax-base-accent-color, @light-gray, 2.5*@syntax-mix-percent); // default text
+@mono-2: @gray;
+@mono-3: @dark-gray;
+
+// Colors -----------------------------------
+@hue-1:   @cyan;
+@hue-2:   @blue;
+@hue-3:   @purple;
+@hue-4:   @green;
+@hue-5:   @red;
+@hue-5-2: darken(@red, 5%);
+@hue-6:   @orange;
+@hue-6-2: @yellow;
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 26%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66%);
