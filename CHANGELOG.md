@@ -1,3 +1,6 @@
+## 1.3.2
+* update semicolon/punctuation.terminator color
+
 ## 1.3.1
 * update screenshot and changelog
 
