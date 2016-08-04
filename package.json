@@ -7,11 +7,12 @@
     "syntax",
     "theme",
     "spacegray",
-    "dark"
+    "dark",
+    "electron"
   ],
   "repository": "https://github.com/mmcbride1007/electron-highlighter-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }

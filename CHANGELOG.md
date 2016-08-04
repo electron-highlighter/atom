@@ -1,3 +1,6 @@
+## 1.3.4
+* update keywords and engines in package.json
+
 ## 1.3.3
 * changes color for "this", "arguments", and "super" keywords to differentiate them from normal variables
 
