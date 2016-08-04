@@ -1,3 +1,6 @@
+## 1.3.3
+* changes color for "this", "arguments", and "super" keywords to differentiate them from normal variables
+
 ## 1.3.2
 * update semicolon/punctuation.terminator color
 
