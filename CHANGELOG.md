@@ -1,3 +1,8 @@
+## 1.4.0
+* refactors color vars
+* removes `@syntax-mix-percent` calculations in favor of straight `hsl`
+* Brightens some colors
+
 ## 1.3.4
 * update keywords and engines in package.json
 
