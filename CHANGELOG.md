@@ -1,7 +1,10 @@
+## 1.4.1
+* adds 2px border radius to find-and-replace markers
+
 ## 1.4.0
 * refactors color vars
 * removes `@syntax-mix-percent` calculations in favor of straight `hsl`
-* Brightens some colors
+* brightens some colors
 
 ## 1.3.4
 * update keywords and engines in package.json
