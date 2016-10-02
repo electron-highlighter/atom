@@ -6,9 +6,9 @@
   "keywords": [
     "syntax",
     "theme",
-    "spacegray",
+    "elecron",
     "dark",
-    "electron"
+    "spacegray"
   ],
   "repository": "https://github.com/mmcbride1007/electron-highlighter-syntax",
   "license": "MIT",
