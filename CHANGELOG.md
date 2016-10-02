@@ -1,3 +1,6 @@
+## 1.4.4
+* moves LESS mixin highlighting from CSS partial into its own LESS partial
+
 ## 1.4.3
 * adds color for operators in C++
 
