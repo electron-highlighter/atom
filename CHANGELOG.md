@@ -1,5 +1,8 @@
+## 1.4.3
+* adds color for operators in C++
+
 ## 1.4.2
-* adds color for operators in C
+* adds color for operators in C and C#
 
 ## 1.4.1
 * adds 2px border radius to find-and-replace markers
