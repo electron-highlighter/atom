@@ -1,3 +1,6 @@
+## 1.5.0
+* Adds `syntax--` to all classes as part of the Shadow DOM removal
+
 ## 1.4.4
 * moves LESS mixin highlighting from CSS partial into its own LESS partial
 
