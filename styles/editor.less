@@ -92,4 +92,19 @@ atom-text-editor {
   .fold-marker:after {
     color: @syntax-gutter-text-color-selected;
   }
+
+
+  // Packages -----------------------------------
+
+  atom-text-editor {
+    // highlight-selected
+    .highlight-selected .region.region.region {
+      border-radius: 0;
+      border: none;
+      border-bottom: 1px solid @syntax-result-marker-color-selected;
+    }
+    .highlight-selected.syntax--background .region.region {
+      background-color: @syntax-result-marker-color;
+    }
+  }
 }
