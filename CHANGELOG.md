@@ -1,3 +1,12 @@
+## 1.7.0
+* changes link color in markdown files to not be same color as italics text
+
+## 1.6.1
+* updates out-of-date screenshot in documentation
+
+## 1.6.0
+* supports `highlight-selected` package
+
 ## 1.5.0
 * Adds `syntax--` to all classes as part of the Shadow DOM removal
 
