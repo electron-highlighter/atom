@@ -1,0 +1,143 @@
+{
+  "name": "mmcbride1007/electron-highlighter-syntax",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/mmcbride1007/electron-highlighter-syntax",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/electron-highlighter-syntax",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "electron-highlighter-syntax",
+      "subhead": "Syntax theme for Atom editor",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "electron-highlighter-syntax: Syntax theme for Atom editor",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "mmcbride1007",
+          "repo": "electron-highlighter-syntax"
+        }
+      ],
+      "text": "v1.7.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>electron-highlighter-syntax theme</h1>\n<p>A syntax theme based off of One Dark with some minor adjustments and a Spacegray editor background</p>\n<p><img src=\"https://cdn.rawgit.com/mmcbride1007/electron-highlighter-syntax/35e1cc118d058d7d8f4c5056e20644b59e01aa70/screenshot.png\"></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/mmcbride1007/electron-highlighter-syntax",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/mmcbride1007",
+          "text": "mmcbride1007"
+        }
+      ]
+    }
+  ]
+}
