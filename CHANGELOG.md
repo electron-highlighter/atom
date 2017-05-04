@@ -1,3 +1,9 @@
+## 1.9.0
+* updates monochrome hues 1 and 2 to be AAA and AA compliant for a11y standards
+
+## 1.8.0
+* bug with deployment, this was never published
+
 ## 1.7.0
 * changes link color in markdown files to not be same color as italics text
 
