@@ -1,3 +1,6 @@
+## 1.10.0
+* adds support for `bracket-matcher` plugin feature that highlights the gutter line of the other bracket
+
 ## 1.9.0
 * updates monochrome hues 1 and 2 to be AAA and AA compliant for a11y standards
 
