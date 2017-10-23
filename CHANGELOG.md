@@ -1,3 +1,6 @@
+## 1.11.0
+- highlights all assignment operators consistently using `syntax--assignment` class
+
 ## 1.10.0
 * adds support for `bracket-matcher` plugin feature that highlights the gutter line of the other bracket
 
