@@ -1,6 +1,7 @@
 ## 1.12.0
 * fixes incorrect bracket color in PHP files
 * fixes TypeScript separator background color
+* adds syntax highlighting for Elixir files
 
 ## 1.11.0
 * highlights all assignment operators consistently using `syntax--assignment` class
