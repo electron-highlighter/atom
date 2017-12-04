@@ -1,5 +1,9 @@
+## 1.12.0
+* fixes incorrect bracket color in PHP files
+* fixes TypeScript separator background color
+
 ## 1.11.0
-- highlights all assignment operators consistently using `syntax--assignment` class
+* highlights all assignment operators consistently using `syntax--assignment` class
 
 ## 1.10.0
 * adds support for `bracket-matcher` plugin feature that highlights the gutter line of the other bracket
