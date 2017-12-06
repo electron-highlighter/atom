@@ -1,3 +1,6 @@
+## 1.13.0
+* adds syntax highlighting for Elixir function params for `one-dark-syntax` feature parity
+
 ## 1.12.0
 * fixes incorrect bracket color in PHP files
 * fixes TypeScript separator background color
