@@ -1,3 +1,6 @@
+## 1.13.1
+* fixes typo in package.json for tag info on atom.io
+
 ## 1.13.0
 * adds syntax highlighting for Elixir function params for `one-dark-syntax` feature parity
 
