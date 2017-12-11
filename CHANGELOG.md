@@ -1,3 +1,6 @@
+## 1.14.0
+* increase contrast in gutter selection for `one-dark-syntax` feature parity
+
 ## 1.13.1
 * fixes typo in package.json for tag info on atom.io
 
