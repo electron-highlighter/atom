@@ -1,3 +1,6 @@
+## 1.15.0
+* make bracket matcher line indicator stand out more by changing background to blue to match background color of selection in tree-view and git panel
+
 ## 1.14.0
 * increase contrast in gutter selection for `one-dark-syntax` feature parity
 
