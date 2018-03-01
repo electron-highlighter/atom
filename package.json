@@ -1,7 +1,7 @@
 {
   "name": "electron-highlighter-syntax",
   "theme": "syntax",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "description": "A tweaked one-dark syntax with Spacegray background",
   "keywords": [
     "syntax",
@@ -10,7 +10,7 @@
     "dark",
     "spacegray"
   ],
-  "repository": "https://github.com/mmcbride1007/electron-highlighter-syntax",
+  "repository": "https://github.com/mikemcbride/electron-highlighter-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
