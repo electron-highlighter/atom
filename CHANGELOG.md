@@ -1,6 +1,7 @@
 ## 1.17.0
 
 * fix CSS property-name highlighting bug. This is SUPER hacky... PRs welcome if anyone knows why it's not working!
+* adds `prettier` for formatting files
 
 ## 1.16.0
 
