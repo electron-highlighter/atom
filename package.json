@@ -3,16 +3,21 @@
   "theme": "syntax",
   "version": "1.16.0",
   "description": "A tweaked one-dark syntax with Spacegray background",
-  "keywords": [
-    "syntax",
-    "theme",
-    "electron",
-    "dark",
-    "spacegray"
-  ],
+  "keywords": ["syntax", "theme", "electron", "dark", "spacegray"],
   "repository": "https://github.com/mikemcbride/electron-highlighter-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^7.0.5",
+    "prettier": "1.12.1",
+    "yorkie": "^1.0.3"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css,less,md}": ["prettier --write", "git add"]
   }
 }

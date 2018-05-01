@@ -28,7 +28,7 @@
 
   &.syntax--operator {
     color: @mono-1;
-    
+
     &.syntax--assignment {
       color: @hue-1;
     }
@@ -166,11 +166,16 @@
     color: @hue-6-2;
   }
 
-  &.syntax--type {
+  // for some strange reason, the CSS selector for property names
+  // is not getting applied, even with the proper selectors.
+  // The setup is the exact same (AFAIK) as one-dark-syntax, which works as expected.
+  // Adding the `:not(.syntax--css)` fixes the issue here, but I don't love the solution.
+  // ¯\_(ツ)_/¯
+  &.syntax--type:not(.syntax--css) {
     color: @hue-1;
   }
 
-  &.syntax--function  {
+  &.syntax--function {
     color: @hue-1;
 
     &.syntax--any-method {
