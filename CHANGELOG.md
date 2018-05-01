@@ -1,3 +1,7 @@
+## 1.17.1
+
+* more hacky CSS fixes. someone plz send help.
+
 ## 1.17.0
 
 * fix CSS property-name highlighting bug. This is SUPER hacky... PRs welcome if anyone knows why it's not working!
