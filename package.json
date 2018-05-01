@@ -1,9 +1,15 @@
 {
   "name": "electron-highlighter-syntax",
   "theme": "syntax",
-  "version": "1.17.0",
+  "version": "1.17.1",
   "description": "A tweaked one-dark syntax with Spacegray background",
-  "keywords": ["syntax", "theme", "electron", "dark", "spacegray"],
+  "keywords": [
+    "syntax",
+    "theme",
+    "electron",
+    "dark",
+    "spacegray"
+  ],
   "repository": "https://github.com/mikemcbride/electron-highlighter-syntax",
   "license": "MIT",
   "engines": {
@@ -18,6 +24,9 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "styles/syntax/*.less": ["prettier --write", "git add"]
+    "styles/syntax/*.less": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
