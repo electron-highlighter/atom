@@ -18,6 +18,6 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,json,css,less,md}": ["prettier --write", "git add"]
+    "styles/syntax/*.less": ["prettier --write", "git add"]
   }
 }
