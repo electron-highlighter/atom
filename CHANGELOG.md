@@ -1,3 +1,7 @@
+## 1.17.2
+
+* reverts last change, as it inadvertently targeted other selectors as well.
+
 ## 1.17.1
 
 * more hacky CSS fixes. someone plz send help.
