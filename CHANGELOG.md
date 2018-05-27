@@ -1,3 +1,8 @@
+## 1.18.0
+
+* made red, blue, purple, and orange slightly more vibrant for better readability
+* make booleans red instead of orange
+
 ## 1.17.2
 
 * reverts last change, as it inadvertently targeted other selectors as well.
