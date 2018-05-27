@@ -1,3 +1,7 @@
+## 1.18.1
+
+* use hex values instead of hsl for color definition to avoid inconsistent color evaluation
+
 ## 1.18.0
 
 * made red, blue, purple, and orange slightly more vibrant for better readability
