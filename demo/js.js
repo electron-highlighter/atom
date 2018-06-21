@@ -5,7 +5,7 @@ class Sale {
   }
 
   decorate(decorator) {
-    if (!Sale[decorator]) throw new Error(`decorator not exist: ${decorator}`)
+    if (!Sale[decorator]) throw new Error(`decorator does not exist: ${decorator}`)
     this.decoratorsList.push(Sale[decorator])
   }
 
