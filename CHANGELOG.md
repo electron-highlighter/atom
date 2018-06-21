@@ -1,3 +1,7 @@
+## 2.0.1
+
+* make booleans red in JSON files
+
 ## 2.0.0
 
 Major version bump! This is mainly due to the adjustment of how much red is in the color scheme. Many file types, especially JavaScript, ended up having a LOT of red. This is because the `.syntax--variable` class was getting a color of red applied to it as a default, and only was overridden in language-specific stylesheets. That class is used in a lot of places, hence causing a lot of red. I changed the default variable color to be the same as the text foreground color and only overrode it in certain places. I also made JSON files a lot less red by making property declarations blue instead, it is much easier on the eyes now.
