@@ -1,3 +1,13 @@
+## 2.0.0
+
+Major version bump! This is mainly due to the adjustment of how much red is in the color scheme. Many file types, especially JavaScript, ended up having a LOT of red. This is because the `.syntax--variable` class was getting a color of red applied to it as a default, and only was overridden in language-specific stylesheets. That class is used in a lot of places, hence causing a lot of red. I changed the default variable color to be the same as the text foreground color and only overrode it in certain places. I also made JSON files a lot less red by making property declarations blue instead, it is much easier on the eyes now.
+
+I also enhanced support for Sass, SCSS, Stylus, and YAML files.
+
+Finally, I added a `demo` folder with sample files in a bunch of different languages, inspired by Wes Bos and Sarah Drasner. It's a great way to pull down the repo and see what this theme looks like in a bunch of languages.
+
+If you have any feedback on this release or notice a bug in a language, please let me know by opening an issue!
+
 ## 1.18.1
 
 * use hex values instead of hsl for color definition to avoid inconsistent color evaluation

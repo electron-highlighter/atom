@@ -1,0 +1,15 @@
+.someClass {
+  font-family: serif;
+}
+
+#someID {
+  background: yellow;
+}
+
+main {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  border-radius: 0;
+}
