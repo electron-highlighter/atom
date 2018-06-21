@@ -1,0 +1,29 @@
+.syntax--source.syntax--sass {
+  .syntax--variable-declaration,
+  .syntax--variable-usage {
+    .syntax--punctuation.syntax--definition,
+    .syntax--variable {
+      color: @hue-5;
+    }
+  }
+
+  .syntax--function.syntax--include {
+    .syntax--variable {
+      color: @hue-2;
+    }
+  }
+
+  .syntax--mixin {
+    .syntax--variable {
+      color: @hue-2;
+    }
+
+    .syntax--variable-declaration,
+    .syntax--variable-usage {
+      .syntax--punctuation.syntax--definition,
+      .syntax--variable {
+        color: @hue-5;
+      }
+    }
+  }
+}
