@@ -1,3 +1,7 @@
+## 2.1.0
+
+* add syntax highlighting for `language-html-angular`
+
 ## 2.0.1
 
 * make booleans red in JSON files
