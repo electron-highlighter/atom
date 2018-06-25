@@ -1,3 +1,7 @@
+## 2.2.0
+
+* brings back red for variable color. This ended up affecting a ton of stuff, and we need this to not be the same as the text color. Red still feels strong, but a lot of other themes are using red for this as well, so for now I'm just switching it back. Maybe someday I'll come back to this.
+
 ## 2.1.0
 
 * add syntax highlighting for `language-html-angular`
