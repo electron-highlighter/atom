@@ -2,4 +2,4 @@
 
 A syntax theme based off of One Dark with some minor adjustments and a Spacegray editor background
 
-![screenshot](https://cdn.rawgit.com/mikemcbride/electron-highlighter-syntax/35e1cc118d058d7d8f4c5056e20644b59e01aa70/screenshot.png)
+![screenshot](https://cdn.jsdelivr.net/gh/mikemcbride/electron-highlighter-syntax/screenshot.png)
