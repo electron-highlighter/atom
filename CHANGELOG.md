@@ -1,3 +1,7 @@
+## 2.2.2
+
+* update screenshot url due to rawgit shutting down
+
 ## 2.2.1
 
 * prevents string syntax color from bleeding into values inside interpolated strings
